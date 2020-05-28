@@ -1,0 +1,27 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "antd": "^4.2.5",
+    "dotenv": "^8.2.0",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.5.0",
+    "css-loader": "^3.5.3",
+    "reactstrap": "^8.4.1",
+    "sass": "^1.26.5",
+    "style-loader": "^1.2.1"
+  },
+  "scripts": {
+    "start": "parcel ./src/index.html --port 4000",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
