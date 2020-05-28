@@ -14,13 +14,11 @@
   },
   "devDependencies": {
     "bootstrap": "^4.5.0",
-    "css-loader": "^3.5.3",
     "reactstrap": "^8.4.1",
-    "sass": "^1.26.5",
-    "style-loader": "^1.2.1"
+    "sass": "^1.26.5"
   },
   "scripts": {
-    "start": "parcel ./src/index.html --port 4000",
+    "start": "parcel ./src/index.html --open --port 4000",
     "build": "parcel build ./src/index.html"
   },
   "author": "",
