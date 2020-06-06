@@ -171,3 +171,11 @@
 .ant-table-selection-column .ant-radio-disabled {
   display: none;
 }
+
+.ant-layout-header {
+  height: 84px !important;
+  padding: 0 40px !important;
+  color: rgba(0, 0, 0, 0.65) !important;
+  line-height: 64px !important;
+  background: #fff !important;
+}

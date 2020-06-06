@@ -1,0 +1,22 @@
+.ant-layout-header {
+    height: 98px !important;
+    padding: 0 40px !important;
+    color: rgba(0, 0, 0, 0.65) !important;
+    line-height: 80px !important;
+    background: #fff !important;
+}
+
+.logoNavbar {
+    height: 170px !important;
+    padding-bottom: 40px !important;
+    padding-left: 40px !important;
+}
+
+.navbarButtons {
+    padding-top: 30px;
+}
+
+.ant-menu-horizontal > .ant-menu-item:hover, .ant-menu-horizontal > .ant-menu-submenu:hover, .ant-menu-horizontal > .ant-menu-item-active, .ant-menu-horizontal > .ant-menu-submenu-active, .ant-menu-horizontal > .ant-menu-item-open, .ant-menu-horizontal > .ant-menu-submenu-open, .ant-menu-horizontal > .ant-menu-item-selected, .ant-menu-horizontal > .ant-menu-submenu-selected {
+    color: #fff !important;
+    border-bottom: solid #fff !important;
+}
