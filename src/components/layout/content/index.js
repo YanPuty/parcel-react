@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout } from 'antd';
+import { Layout, Icon } from 'antd';
 import { Row, Col, Card } from "reactstrap";
 import "antd/dist/antd.css";
 
@@ -43,6 +43,33 @@ export class Contents extends React.Component {
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <div className="contentWrapper">
+                        <div className="textWrapper">
+                            <Row>
+                                <Col xs="6" sm="4">
+                                    <h1 style={{ fontSize: "22px", color: "#222222", paddingTop: "25px"}}>Airbnb Experiences are vetted for quality</h1>
+                                </Col>
+                                <Col>
+                                    <Icon type="user" style={{ paddingRight: "100%"}}/> 
+                                    <b>Local experts</b>
+                                    <p>Led by locals who love where they’re from and what they do.</p>
+                                </Col>
+                                <Col>
+                                    <Icon type="team" style={{ paddingRight: "100%"}}/>
+                                    <b>Small groups</b>
+                                    <p>With intimate group sizes, you’ll never get lost in the crowd.</p>
+                                </Col>
+                                <Col>
+                                    <Icon type="trademark" style={{ paddingRight: "100%"}}/>
+                                    <b>High standards</b>
+                                    <p>Every experience is reviewed for unique access.</p>
+                                </Col>
+                            </Row>
+                        </div>
+                    </div>
+                    <div className="contentText">
+                        <h3>Experiences in other cities</h3>
                     </div>
                 </Content>
             </React.Fragment>
