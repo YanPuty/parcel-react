@@ -93,7 +93,7 @@ class FooterLayOut extends React.Component {
                     <Divider />
                     <div className="row">
                         <div className="col">
-                            <p style={{ fontSize: "18px", width: "100%"}}>© 2020 Airbnb, Inc. All rights reserved
+                            <p style={{ fontSize: "12px", width: "100%"}}>© 2020 Airbnb, Inc. All rights reserved
                                 <Link to="" style={{ paddingLeft: "20px" }}> <Badge color="grey"/>Privacy</Link>
                                 <Link to="" style={{ paddingLeft: "20px" }}><Badge color="grey"/>Terms</Link>
                                 <Link to="" style={{ paddingLeft: "20px" }}><Badge color="grey"/>Sitemap</Link>
@@ -102,18 +102,18 @@ class FooterLayOut extends React.Component {
                         <div className="col">
                             <p style={{paddingLeft: "220px", width: "100%", marginLeft: "80px"}}>
                                 <b >
-                                    <Icon type="global" style={{ fontSize: "30px" }} />
-                                    <span style={{ paddingLeft: "5px", fontSize: "18px" }}>English (US)</span>
+                                    <Icon type="global" style={{ fontSize: "18px" }} />
+                                    <span style={{ paddingLeft: "5px", fontSize: "12px" }}>English (US)</span>
                                 </b>
                                 <b style={{ paddingLeft: "20px" }}>
-                                    <Icon type="dollar" style={{ fontSize: "30px" }} />
-                                    <span style={{ paddingLeft: "5px", fontSize: "18px" }}>USD</span>
+                                    <Icon type="dollar" style={{ fontSize: "18px" }} />
+                                    <span style={{ paddingLeft: "5px", fontSize: "12px" }}>USD</span>
                                 </b>
                                 <b style={{ paddingLeft: "40px" }}>
-                                    <Icon type="instagram" style={{ fontSize: "30px" }} />
+                                    <Icon type="instagram" style={{ fontSize: "18px" }} />
                                 </b>
                                 <b style={{ paddingLeft: "20px" }}>
-                                    <Icon type="facebook" style={{ fontSize: "30px" }} />
+                                    <Icon type="facebook" style={{ fontSize: "18px" }} />
                                 </b>
                             </p>
                         </div>
