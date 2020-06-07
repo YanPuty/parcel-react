@@ -69,7 +69,34 @@ export class Contents extends React.Component {
                         </div>
                     </div>
                     <div className="contentText">
-                        <h3>Experiences in other cities</h3>
+                        <h3 style={{ fontSize: "22px", paddingBottom: " 10px"}}>Experiences for every interest</h3>
+                        <Row>
+                            <Col>
+                                <div className="box">
+                                    <p>Art and culture</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="box">
+                                    <p>Entertainment</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="box">
+                                    <p>Food and drink</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="box">
+                                    <p>Nature</p>
+                                </div>
+                            </Col>
+                            <Col>
+                                <div className="box">
+                                    <p>Sports</p>
+                                </div>
+                            </Col>
+                        </Row>
                     </div>
                 </Content>
             </React.Fragment>
