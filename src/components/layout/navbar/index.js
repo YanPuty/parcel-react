@@ -39,7 +39,7 @@ export class Narbar extends React.Component {
                 <Header className="header">
                     <div className="logo">
                         <Image src={logo}/>
-                        <Button size="large" type="default" style={{ marginLeft: "25%"}}>Add a location</Button>
+                        <Button size="large" type="default" style={{ marginLeft: "25%", borderTopLeftRadius: "8px", borderBottomLeftRadius: "8px"}}>Add a location</Button>
                         <Button size="large" type="default">Add Date</Button>
                         <Button size="large" type="default" icon="search" style={{ marginRight: "20%"}}/>
                         <Button type="link" shape="round" size="large" style={{ color: "black", paddingLeft: "120px" }}>
