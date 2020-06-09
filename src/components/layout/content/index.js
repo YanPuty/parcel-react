@@ -1,14 +1,11 @@
 import React from "react";
-import { Layout, Icon } from 'antd';
-import { Row, Col, Card } from "reactstrap";
+import { Layout, Icon, Card } from 'antd';
+import { Row, Col } from "reactstrap";
 import "antd/dist/antd.css";
 
 import "./index.scss";
 
 const { Content } = Layout;
-
-const { Meta } = Card;
-
 export class Contents extends React.Component {
 
     render() {
@@ -48,20 +45,20 @@ export class Contents extends React.Component {
                         <div className="textWrapper">
                             <Row>
                                 <Col xs="6" sm="4">
-                                    <h1 style={{ fontSize: "22px", color: "#222222", paddingTop: "25px"}}>Airbnb Experiences are vetted for quality</h1>
+                                    <h1 style={{ fontSize: "22px", color: "#222222", paddingTop: "25px" }}>Airbnb Experiences are vetted for quality</h1>
                                 </Col>
                                 <Col>
-                                    <Icon type="user" style={{ paddingRight: "100%"}}/> 
+                                    <Icon type="user" style={{ paddingRight: "100%" }} />
                                     <b>Local experts</b>
                                     <p>Led by locals who love where they’re from and what they do.</p>
                                 </Col>
                                 <Col>
-                                    <Icon type="team" style={{ paddingRight: "100%"}}/>
+                                    <Icon type="team" style={{ paddingRight: "100%" }} />
                                     <b>Small groups</b>
                                     <p>With intimate group sizes, you’ll never get lost in the crowd.</p>
                                 </Col>
                                 <Col>
-                                    <Icon type="trademark" style={{ paddingRight: "100%"}}/>
+                                    <Icon type="trademark" style={{ paddingRight: "100%" }} />
                                     <b>High standards</b>
                                     <p>Every experience is reviewed for unique access.</p>
                                 </Col>
@@ -69,7 +66,10 @@ export class Contents extends React.Component {
                         </div>
                     </div>
                     <div className="contentText">
-                        <h3 style={{ fontSize: "22px", paddingBottom: " 10px"}}>Experiences for every interest</h3>
+                        <h3 style={{ fontSize: "22px", paddingBottom: " 10px" }}>Experiences in other cities</h3>
+                    </div>
+                    <div className="contentText">
+                        <h3 style={{ fontSize: "22px", paddingBottom: " 10px" }}>Experiences for every interest</h3>
                         <Row>
                             <Col>
                                 <div className="box">
