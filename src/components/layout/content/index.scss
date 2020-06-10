@@ -61,3 +61,31 @@
     padding-left: 20px;
     padding-top: 20px;
 }
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: auto;
+    line-height: 160px;
+    background: #fff;
+    overflow: hidden;
+}
+  
+.ant-carousel .slick-slide h3 {
+    color: red;
+}
+
+.cardCarousel {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    box-shadow: 7px 14px 8px -2px #48484829;
+}
+.ant-carousel .slick-dots li {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    background: black;;
+    margin: 0px 2px;
+    padding: 0px;
+}

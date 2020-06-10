@@ -1,11 +1,13 @@
 import React from "react";
-import { Layout, Icon, Card } from 'antd';
+import { Layout, Icon, Card, Carousel } from 'antd';
 import { Row, Col } from "reactstrap";
 import "antd/dist/antd.css";
 
 import "./index.scss";
 
 const { Content } = Layout;
+const { Meta } = Card;
+
 export class Contents extends React.Component {
 
     render() {
@@ -67,6 +69,75 @@ export class Contents extends React.Component {
                     </div>
                     <div className="contentText">
                         <h3 style={{ fontSize: "22px", paddingBottom: " 10px" }}>Experiences in other cities</h3>
+                        <Carousel style={{ width: "auto", height: "auto" }}>
+                            <div>
+                                <Row>
+                                    <Col>
+                                        <Card
+                                            className="cardCarousel"
+                                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" style={{ borderRadius: "18px", borderBottomLeftRadius: 0, borderBottomRightRadius: 0 }}/>}
+                                        >
+                                            <Meta title="Paris"/>
+                                        </Card>
+                                    </Col>
+                                    <Col>
+                                        <Card
+                                            className="cardCarousel"
+                                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" style={{ borderRadius: "18px", borderBottomLeftRadius: 0, borderBottomRightRadius: 0 }}/>}
+                                        >
+                                            <Meta title="London"/>
+                                        </Card>
+                                    </Col>
+                                    <Col>
+                                        <Card
+                                            className="cardCarousel"
+                                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" style={{ borderRadius: "18px", borderBottomLeftRadius: 0, borderBottomRightRadius: 0 }}/>}
+                                        >
+                                            <Meta title="New York"/>
+                                        </Card>
+                                    </Col>
+                                    <Col>
+                                        <Card
+                                            className="cardCarousel"
+                                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" style={{ borderRadius: "18px", borderBottomLeftRadius: 0, borderBottomRightRadius: 0 }}/>}
+                                        >
+                                            <Meta title="Los Angeles"/>
+                                        </Card>
+                                    </Col>
+                                    <Col>
+                                        <Card
+                                            className="cardCarousel"
+                                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" style={{ borderRadius: "18px", borderBottomLeftRadius: 0, borderBottomRightRadius: 0 }}/>}
+                                        >
+                                            <Meta title="Tokyo"/>
+                                        </Card>
+                                    </Col>
+                                    <Col>
+                                        <Card
+                                            className="cardCarousel"
+                                            cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" style={{ borderRadius: "18px", borderBottomLeftRadius: 0, borderBottomRightRadius: 0 }}/>}
+                                        >
+                                            <Meta title="Mexico"/>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </div>
+                            <div>
+                                <Card title="Card Title">
+                                    Card Content 2
+                                    </Card>
+                            </div>
+                            <div>
+                                <Card title="Card Title">
+                                    Card Content 3
+                                    </Card>
+                            </div>
+                            <div>
+                                <Card title="Card Title">
+                                    Card Content 4
+                                    </Card>
+                            </div>
+                        </Carousel>
                     </div>
                     <div className="contentText">
                         <h3 style={{ fontSize: "22px", paddingBottom: " 10px" }}>Experiences for every interest</h3>
